@@ -27,7 +27,7 @@ namespace Proje1
         {
             bag = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=ARAC.mdb");
             bag.Open();
-        }
+        } 
         public void vericekme()
         {
             comboBox1.Items.Clear();
